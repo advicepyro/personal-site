@@ -16,7 +16,12 @@ mix
         'resources/assets/vendor/magnific-popup/magnific-popup.css',
 
     ], 'public/css/vendor.css')
-    .js('resources/assets/js/app.js', 'public/js/app.js')
-
+    .js([
+        'resources/assets/js/app.js',
+        'resources/assets/vendor/jquery-easing/jquery.easing.min.js',
+        'resources/assets/vendor/magnific-popup/jquery.magnific-popup.min.js',
+        'resources/assets/vendor/jqBootstrapValidation/jqBootstrapValidation.min.js',
+        'resources/assets/js/freelancer.js'
+    ], 'public/js/app.js')
     .sass('resources/assets/sass/app.scss', 'public/css/app.css')
     .version();

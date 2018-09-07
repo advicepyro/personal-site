@@ -11,14 +11,9 @@
 
     <title>{{ config('app.name') }}</title>
 
-    {{--Define custom fonts. fontawesome 4.7 is included in Mix.--}}
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css">
-
     {{--Define mixed stylesheets here--}}
-    <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
-    <link href="{{ mix('/css/vendor.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/vendor.css') }}" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -318,20 +313,7 @@
     </div>
 </div>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-<!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/freelancer.min.js"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 
 </body>
 
