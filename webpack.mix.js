@@ -13,8 +13,7 @@ let mix = require('laravel-mix');
 
 mix
     .styles([
-        'resources/assets/vendor/magnific-popup/magnific-popup.css',
-
+        'resources/assets/vendor/magnific-popup/magnific-popup.css'
     ], 'public/css/vendor.css')
     .js([
         'resources/assets/js/app.js',
