@@ -10,10 +10,10 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~font-awesome/scss/font-awesome';
 
-.navbar-laravel {
+/*.navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+}*/
 
 // Theme
 @import 'freelancer';
@@ -25,4 +25,8 @@
         display: inline-block;
         vertical-align: middle;
     }
+}
+
+.portfolio {
+    background-color: $white;
 }
