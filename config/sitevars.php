@@ -11,7 +11,7 @@ return [
         'description' => env('META_DESCRIPTION', null),
         'author'      => env('META_AUTHOR', null),
         'keywords'    => env('META_KEYWORDS', null),
-        'title'       => env('META_TITLE', env('app.name', null))
+        'title'       => env('META_TITLE', null)
     ]
 
 ];
