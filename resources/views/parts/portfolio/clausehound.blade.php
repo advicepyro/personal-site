@@ -39,9 +39,12 @@
                         <li>Bootstrap</li>
                     </ul>
                     <p class="mb-5"></p>
+                    <a target='_blank' class="btn btn-danger btn-lg rounded-pill" href="https://clausehound.com">
+                        <i class="fa fa-globe"></i>
+                        Visit Site</a>
                     <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                         <i class="fa fa-close"></i>
-                        Close Project</a>
+                        Close</a>
                 </div>
             </div>
         </div>
