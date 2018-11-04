@@ -6,10 +6,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {{--For SEO. Blargh--}}
     <meta name="description" content="{{ config('sitevars.meta.description') }}">
     <meta name="author" content="{{ config('sitevars.meta.author') }}">
-
-    <title>{{ config('app.name') }}</title>
+    <meta name="keywords" content="{{ config('sitevars.meta.keywords') }}">
+    <title>{{ config('sitevars.meta.title') }}</title>
 
     {{--Here's a crapload of icons--}}
     <link rel="shortcut icon" href="/icons/favicon.ico">

@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+git fetch origin master
+git reset --hard FETCH_HEAD
+git clean -df
+git pull
+
 composer install --no-interaction --prefer-dist --optimize-autoloader
 
 if [ -f artisan ]
